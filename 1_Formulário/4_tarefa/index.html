@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="">Nome</label>
+            <input type="text" id="nome" placeholder="digite seu nome:">
+        </div>
+
+        <div>
+            <label for="">Data</label>
+            <input type="date">
+        </div>
+        
+        <div>
+            <label for="">Endereço</label>
+            <input type="text" id="endereço" placeholder="digite seu endereço">
+        </div>
+
+        <div>
+            <label for="">Email</label>
+            <input type="email" id="email" placeholder="digite seu email">
+        </div>
+
+        <div>
+            <p>Você gosta de jogos?</p>
+            <div>
+                <input type="radio" id="sim" name="gosta jogos">
+                <label for="sim">Sim</label>
+            </div>
+           
+            <div>
+                <input type="radio" id="não" name="gosta jogos">
+                <label for="não">Não</label>
+            </div>
+                    <p>Qual tipo de jogo você gosta?</p>
+                    
+                    <div>
+                        <input type="radio" id="ação" name="gosta jogar">
+                        <label for="ação">Ação</label>
+                    </div>
+                   
+                    <div>
+                        <input type="radio" id="RPG" name="gosta jogar">
+                        <label for="RPG">RPG</label>
+                    </div>
+
+                    <div>
+                        <input type="radio" id="luta" name="gosta jogar">
+                        <label for="luta">Luta</label>
+                    </div>
+
+                    <div>
+                        <label for="">selecione sua forma de pagamento</label>
+                        <select name="pagamento" id="pagamento">
+                            <option selected disabled>Escolha</option>
+                            <option value="débito">Débito</option>
+                            <option value="credito">Credito</option> 
+                            <option value="boleto">Boleto</option>
+                            <option value="pix">Pix</option>
+                        </select>
+                    </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
