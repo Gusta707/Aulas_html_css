@@ -1,0 +1,15 @@
+.caixa_width{
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 0, 0); */
+
+    border: 2px solid rgb(255, 0, 0);
+
+    width: 200px;
+}
+
+.imagem_width{
+    width: 500px;
+}
+
+
